@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077B128BA471897087FE87F705EB07EA /* DCIntrospect-ARC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 321EDBFB461D2ED28EA665937904810B /* DCIntrospect-ARC-dummy.m */; };
+		1178ED1F3138CE0E3981882BF152BA2C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DAC298DBF346304B1DB7D5259551E2 /* QuartzCore.framework */; };
+		1925D03F51616E3DAC831BAD8795C9FA /* Pods-Pods-Target-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AAAF2C719BB0723F578ED8EAE89DA5 /* Pods-Pods-Target-dummy.m */; };
+		1A59E3AF22E421B60BEAB2C94C24C9ED /* Pods-Pods-Target-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1C5CEB69C8C0AFBC521C2291F181D8 /* Pods-Pods-Target-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E8DBF76E807A1BD83DC8D4521DC15B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA03ECCF8168602B0D42B499BDDA183 /* Foundation.framework */; };
+		34AC0AC244F2E62B14B229EE91FC3972 /* DCIntrospectSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = BF62A6D1DBF0B39CA1B6C183B26545B7 /* DCIntrospectSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4512E345775CC8106A28C4A9268997F1 /* DCIntrospect.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5B658956D9096BEAA9D593554DE288 /* DCIntrospect.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		59FF8FD5BAF979433ECDC428CEAF35F7 /* DCStatusBarOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = F502F8C46D41AF349D5BB9243948E9E4 /* DCStatusBarOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		627896247442D46B429E0C20498E1E8F /* DCCrossHairView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7186611FD3F6F9722B90089A8258D6B /* DCCrossHairView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		650C5022ECE0C12C7FA655A41D628B1B /* DCIntrospect.h in Headers */ = {isa = PBXBuildFile; fileRef = 891AFFCB658626205494720A7ECC8331 /* DCIntrospect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7003E4C3CD842C1FC21C14F7163B3636 /* DCTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 694AAF79E39662783FAFC78C42B38C9C /* DCTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		73251A9069E7FD05504EE46C8D082A97 /* DCFrameView.h in Headers */ = {isa = PBXBuildFile; fileRef = 277747AE83A583028A1423D53501A007 /* DCFrameView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77738FFCCE3C1E1CE936FC88158495D4 /* DCTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE281CBB8DB13C9D31D0E3436338BEB6 /* DCTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9269157B1BE8492C453548591BBCE692 /* DCFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF663407D0708793C8D80E7CDEC5653 /* DCFrameView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CBCCD14160B3DAB07D6A1BC0A94A4303 /* DCCrossHairView.h in Headers */ = {isa = PBXBuildFile; fileRef = BDF94078DC1FC23145A4FA61051844E3 /* DCCrossHairView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA4A120D2CAB5D07FAA3F4BFB200F281 /* UIView+DCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D977DF7A9EA169C58EC9EED6366F0AF /* UIView+DCAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EB9ACC68C65B5A77109D35E12A381E58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA03ECCF8168602B0D42B499BDDA183 /* Foundation.framework */; };
+		F2886D86BF16F4E01EAF33FC9F67B35A /* DCStatusBarOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 31928849A360A6F4BF57B146D2380326 /* DCStatusBarOverlay.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F5F978703A4A60BDB7888E0E78215C2D /* UIView+DCAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E96D0BD79750515FBE3CC4BC81A011 /* UIView+DCAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD7702A1FF7F5A07FBBAF89F3C6A48D4 /* DCIntrospect-ARC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC42542993E57604055411E6876FE712 /* DCIntrospect-ARC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C665FDAD91909BFC6CC30FCFDB8D49E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BBDAC4A9AA879390475BC86FCB495DC;
+			remoteInfo = "DCIntrospect-ARC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14E96D0BD79750515FBE3CC4BC81A011 /* UIView+DCAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+DCAdditions.h"; path = "DCIntrospect-ARC/UIView+DCAdditions.h"; sourceTree = "<group>"; };
+		1CA03ECCF8168602B0D42B499BDDA183 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		277747AE83A583028A1423D53501A007 /* DCFrameView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCFrameView.h; path = "DCIntrospect-ARC/DCFrameView.h"; sourceTree = "<group>"; };
+		28FC391686F7BF47FAC2DB1F26EA8DA5 /* Pods-Pods-Target.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pods-Target.release.xcconfig"; sourceTree = "<group>"; };
+		31928849A360A6F4BF57B146D2380326 /* DCStatusBarOverlay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCStatusBarOverlay.m; path = "DCIntrospect-ARC/DCStatusBarOverlay.m"; sourceTree = "<group>"; };
+		321EDBFB461D2ED28EA665937904810B /* DCIntrospect-ARC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCIntrospect-ARC-dummy.m"; sourceTree = "<group>"; };
+		4D977DF7A9EA169C58EC9EED6366F0AF /* UIView+DCAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DCAdditions.m"; path = "DCIntrospect-ARC/UIView+DCAdditions.m"; sourceTree = "<group>"; };
+		68DAC298DBF346304B1DB7D5259551E2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		694AAF79E39662783FAFC78C42B38C9C /* DCTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCTextView.m; path = "DCIntrospect-ARC/DCTextView.m"; sourceTree = "<group>"; };
+		810BDB85011E792FA822357AF69F8599 /* Pods-Pods-Target.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pods-Target.debug.xcconfig"; sourceTree = "<group>"; };
+		8517D529F3F7B15030DFDC2B1B600E9B /* Pods-Pods-Target-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pods-Target-resources.sh"; sourceTree = "<group>"; };
+		891AFFCB658626205494720A7ECC8331 /* DCIntrospect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCIntrospect.h; path = "DCIntrospect-ARC/DCIntrospect.h"; sourceTree = "<group>"; };
+		9C1C5CEB69C8C0AFBC521C2291F181D8 /* Pods-Pods-Target-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pods-Target-umbrella.h"; sourceTree = "<group>"; };
+		9E825D28005D1506ECEED32C003878CE /* Pods-Pods-Target-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pods-Target-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A624A4CD4D9AE9C5C7B5BA30E23BF8BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8888AD91BB5E293535F3AD2CE6D500F /* DCIntrospect-ARC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DCIntrospect-ARC.xcconfig"; sourceTree = "<group>"; };
+		B86D20CAE3DC9F389D60D00CB654828C /* Pods-Pods-Target-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pods-Target-frameworks.sh"; sourceTree = "<group>"; };
+		BDF94078DC1FC23145A4FA61051844E3 /* DCCrossHairView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCCrossHairView.h; path = "DCIntrospect-ARC/DCCrossHairView.h"; sourceTree = "<group>"; };
+		BE6426D832D3F90C2FFE6A7B63CF5B19 /* Pods-Pods-Target-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pods-Target-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF62A6D1DBF0B39CA1B6C183B26545B7 /* DCIntrospectSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCIntrospectSettings.h; path = "DCIntrospect-ARC/DCIntrospectSettings.h"; sourceTree = "<group>"; };
+		C42FDFCA7B5B7F02524B9379223B74AD /* DCIntrospect-ARC-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DCIntrospect-ARC-Private.xcconfig"; sourceTree = "<group>"; };
+		C4D9C25127BF4B2CDD312EF5D775D219 /* DCIntrospect-ARC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "DCIntrospect-ARC.modulemap"; sourceTree = "<group>"; };
+		C7186611FD3F6F9722B90089A8258D6B /* DCCrossHairView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCCrossHairView.m; path = "DCIntrospect-ARC/DCCrossHairView.m"; sourceTree = "<group>"; };
+		C88113A79685B4EFEE7BAD12896829F7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C93D090AB9F952B0FE9108F1B8D95E76 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5B658956D9096BEAA9D593554DE288 /* DCIntrospect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCIntrospect.m; path = "DCIntrospect-ARC/DCIntrospect.m"; sourceTree = "<group>"; };
+		CC8A782BAE29D91E586C29312CE3F2F4 /* Pods-Pods-Target.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Pods-Target.modulemap"; sourceTree = "<group>"; };
+		CDF663407D0708793C8D80E7CDEC5653 /* DCFrameView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCFrameView.m; path = "DCIntrospect-ARC/DCFrameView.m"; sourceTree = "<group>"; };
+		D7297E4CA57644E1E6A9E7F7B311A6DA /* Pods-Pods-Target.configtest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pods-Target.configtest.xcconfig"; sourceTree = "<group>"; };
+		EC42542993E57604055411E6876FE712 /* DCIntrospect-ARC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCIntrospect-ARC-umbrella.h"; sourceTree = "<group>"; };
+		ED1901D3EC2BB409641EA44E673A643B /* DCIntrospect-ARC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCIntrospect-ARC-prefix.pch"; sourceTree = "<group>"; };
+		ED4C8AC29DC9374E7A87C85C475C1BE5 /* Pods_Pods_Target.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pods_Target.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F502F8C46D41AF349D5BB9243948E9E4 /* DCStatusBarOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCStatusBarOverlay.h; path = "DCIntrospect-ARC/DCStatusBarOverlay.h"; sourceTree = "<group>"; };
+		F9AAAF2C719BB0723F578ED8EAE89DA5 /* Pods-Pods-Target-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pods-Target-dummy.m"; sourceTree = "<group>"; };
+		F9B930164C247C2B74308EA238AB72EC /* DCIntrospect_ARC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCIntrospect_ARC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE281CBB8DB13C9D31D0E3436338BEB6 /* DCTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCTextView.h; path = "DCIntrospect-ARC/DCTextView.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8E628391BF32C431F0A69A59D0F46A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9ACC68C65B5A77109D35E12A381E58 /* Foundation.framework in Frameworks */,
+				1178ED1F3138CE0E3981882BF152BA2C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38120EA025372C672B0100ACC608FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8DBF76E807A1BD83DC8D4521DC15B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21FF83D38BE2E1D5499360B06000D8F3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1CA03ECCF8168602B0D42B499BDDA183 /* Foundation.framework */,
+				68DAC298DBF346304B1DB7D5259551E2 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E1F3384B1B39575144FEBFCF3210CCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21FF83D38BE2E1D5499360B06000D8F3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FAE0C9F3A99A244B21B18E37774A667 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4D9C25127BF4B2CDD312EF5D775D219 /* DCIntrospect-ARC.modulemap */,
+				A8888AD91BB5E293535F3AD2CE6D500F /* DCIntrospect-ARC.xcconfig */,
+				C42FDFCA7B5B7F02524B9379223B74AD /* DCIntrospect-ARC-Private.xcconfig */,
+				321EDBFB461D2ED28EA665937904810B /* DCIntrospect-ARC-dummy.m */,
+				ED1901D3EC2BB409641EA44E673A643B /* DCIntrospect-ARC-prefix.pch */,
+				EC42542993E57604055411E6876FE712 /* DCIntrospect-ARC-umbrella.h */,
+				A624A4CD4D9AE9C5C7B5BA30E23BF8BB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DCIntrospect-ARC";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				C88113A79685B4EFEE7BAD12896829F7 /* Podfile */,
+				5E1F3384B1B39575144FEBFCF3210CCC /* Frameworks */,
+				FCC6F965540745142F6675EF7C9E0E2D /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				848A6CE8DA3504A266A17F635DC3683A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		848A6CE8DA3504A266A17F635DC3683A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E16B9732854AAA473AFC73D1913EA7C6 /* Pods-Pods-Target */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9B930164C247C2B74308EA238AB72EC /* DCIntrospect_ARC.framework */,
+				ED4C8AC29DC9374E7A87C85C475C1BE5 /* Pods_Pods_Target.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D15EDBB5854BCB877E7C395FFB9BA95E /* DCIntrospect-ARC */ = {
+			isa = PBXGroup;
+			children = (
+				BDF94078DC1FC23145A4FA61051844E3 /* DCCrossHairView.h */,
+				C7186611FD3F6F9722B90089A8258D6B /* DCCrossHairView.m */,
+				277747AE83A583028A1423D53501A007 /* DCFrameView.h */,
+				CDF663407D0708793C8D80E7CDEC5653 /* DCFrameView.m */,
+				891AFFCB658626205494720A7ECC8331 /* DCIntrospect.h */,
+				CA5B658956D9096BEAA9D593554DE288 /* DCIntrospect.m */,
+				BF62A6D1DBF0B39CA1B6C183B26545B7 /* DCIntrospectSettings.h */,
+				F502F8C46D41AF349D5BB9243948E9E4 /* DCStatusBarOverlay.h */,
+				31928849A360A6F4BF57B146D2380326 /* DCStatusBarOverlay.m */,
+				FE281CBB8DB13C9D31D0E3436338BEB6 /* DCTextView.h */,
+				694AAF79E39662783FAFC78C42B38C9C /* DCTextView.m */,
+				14E96D0BD79750515FBE3CC4BC81A011 /* UIView+DCAdditions.h */,
+				4D977DF7A9EA169C58EC9EED6366F0AF /* UIView+DCAdditions.m */,
+				5FAE0C9F3A99A244B21B18E37774A667 /* Support Files */,
+			);
+			path = "DCIntrospect-ARC";
+			sourceTree = "<group>";
+		};
+		E16B9732854AAA473AFC73D1913EA7C6 /* Pods-Pods-Target */ = {
+			isa = PBXGroup;
+			children = (
+				C93D090AB9F952B0FE9108F1B8D95E76 /* Info.plist */,
+				CC8A782BAE29D91E586C29312CE3F2F4 /* Pods-Pods-Target.modulemap */,
+				9E825D28005D1506ECEED32C003878CE /* Pods-Pods-Target-acknowledgements.markdown */,
+				BE6426D832D3F90C2FFE6A7B63CF5B19 /* Pods-Pods-Target-acknowledgements.plist */,
+				F9AAAF2C719BB0723F578ED8EAE89DA5 /* Pods-Pods-Target-dummy.m */,
+				B86D20CAE3DC9F389D60D00CB654828C /* Pods-Pods-Target-frameworks.sh */,
+				8517D529F3F7B15030DFDC2B1B600E9B /* Pods-Pods-Target-resources.sh */,
+				9C1C5CEB69C8C0AFBC521C2291F181D8 /* Pods-Pods-Target-umbrella.h */,
+				D7297E4CA57644E1E6A9E7F7B311A6DA /* Pods-Pods-Target.configtest.xcconfig */,
+				810BDB85011E792FA822357AF69F8599 /* Pods-Pods-Target.debug.xcconfig */,
+				28FC391686F7BF47FAC2DB1F26EA8DA5 /* Pods-Pods-Target.release.xcconfig */,
+			);
+			name = "Pods-Pods-Target";
+			path = "Target Support Files/Pods-Pods-Target";
+			sourceTree = "<group>";
+		};
+		FCC6F965540745142F6675EF7C9E0E2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D15EDBB5854BCB877E7C395FFB9BA95E /* DCIntrospect-ARC */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1532C9586E8EBB9B4B17BCF718304225 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCCD14160B3DAB07D6A1BC0A94A4303 /* DCCrossHairView.h in Headers */,
+				73251A9069E7FD05504EE46C8D082A97 /* DCFrameView.h in Headers */,
+				FD7702A1FF7F5A07FBBAF89F3C6A48D4 /* DCIntrospect-ARC-umbrella.h in Headers */,
+				650C5022ECE0C12C7FA655A41D628B1B /* DCIntrospect.h in Headers */,
+				34AC0AC244F2E62B14B229EE91FC3972 /* DCIntrospectSettings.h in Headers */,
+				59FF8FD5BAF979433ECDC428CEAF35F7 /* DCStatusBarOverlay.h in Headers */,
+				77738FFCCE3C1E1CE936FC88158495D4 /* DCTextView.h in Headers */,
+				F5F978703A4A60BDB7888E0E78215C2D /* UIView+DCAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B792072DDAE005FF1186C852354B16AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A59E3AF22E421B60BEAB2C94C24C9ED /* Pods-Pods-Target-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0BBDAC4A9AA879390475BC86FCB495DC /* DCIntrospect-ARC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DA3DDF8E9A8DFEED2B66D53B13567FF /* Build configuration list for PBXNativeTarget "DCIntrospect-ARC" */;
+			buildPhases = (
+				84926A5FB3480DB5D474490238B844DC /* Sources */,
+				A8E628391BF32C431F0A69A59D0F46A0 /* Frameworks */,
+				1532C9586E8EBB9B4B17BCF718304225 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DCIntrospect-ARC";
+			productName = "DCIntrospect-ARC";
+			productReference = F9B930164C247C2B74308EA238AB72EC /* DCIntrospect_ARC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6EACD95339C2778B2125A3EF336BDD7F /* Pods-Pods-Target */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A31707EE49ACEE604375BEFAB22317EA /* Build configuration list for PBXNativeTarget "Pods-Pods-Target" */;
+			buildPhases = (
+				B7FBC68D47AFE44A902F969C7ED2E92F /* Sources */,
+				F38120EA025372C672B0100ACC608FEC /* Frameworks */,
+				B792072DDAE005FF1186C852354B16AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				519610824FFEC0695290C79143A46D52 /* PBXTargetDependency */,
+			);
+			name = "Pods-Pods-Target";
+			productName = "Pods-Pods-Target";
+			productReference = ED4C8AC29DC9374E7A87C85C475C1BE5 /* Pods_Pods_Target.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BBDAC4A9AA879390475BC86FCB495DC /* DCIntrospect-ARC */,
+				6EACD95339C2778B2125A3EF336BDD7F /* Pods-Pods-Target */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84926A5FB3480DB5D474490238B844DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627896247442D46B429E0C20498E1E8F /* DCCrossHairView.m in Sources */,
+				9269157B1BE8492C453548591BBCE692 /* DCFrameView.m in Sources */,
+				077B128BA471897087FE87F705EB07EA /* DCIntrospect-ARC-dummy.m in Sources */,
+				4512E345775CC8106A28C4A9268997F1 /* DCIntrospect.m in Sources */,
+				F2886D86BF16F4E01EAF33FC9F67B35A /* DCStatusBarOverlay.m in Sources */,
+				7003E4C3CD842C1FC21C14F7163B3636 /* DCTextView.m in Sources */,
+				EA4A120D2CAB5D07FAA3F4BFB200F281 /* UIView+DCAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FBC68D47AFE44A902F969C7ED2E92F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1925D03F51616E3DAC831BAD8795C9FA /* Pods-Pods-Target-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		519610824FFEC0695290C79143A46D52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DCIntrospect-ARC";
+			target = 0BBDAC4A9AA879390475BC86FCB495DC /* DCIntrospect-ARC */;
+			targetProxy = 6C665FDAD91909BFC6CC30FCFDB8D49E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D491647D9FBA81473125ECE87766FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3495F753D747F2A18F66C9295208B050 /* ConfigTest */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "CONFIGTEST=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ConfigTest;
+		};
+		3D0A535BAC826A03FA3AC24481AA4E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FE0DF61CEA7710FB77E1793E522220D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C42FDFCA7B5B7F02524B9379223B74AD /* DCIntrospect-ARC-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DCIntrospect-ARC/DCIntrospect-ARC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DCIntrospect-ARC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DCIntrospect-ARC/DCIntrospect-ARC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DCIntrospect_ARC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		554C2408C3AA295251DEBC1A9DBF9C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C42FDFCA7B5B7F02524B9379223B74AD /* DCIntrospect-ARC-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DCIntrospect-ARC/DCIntrospect-ARC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DCIntrospect-ARC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DCIntrospect-ARC/DCIntrospect-ARC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DCIntrospect_ARC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5EDD9F8A735E7AA6B2BFB60EA1217F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28FC391686F7BF47FAC2DB1F26EA8DA5 /* Pods-Pods-Target.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pods-Target/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Pods-Target/Pods-Pods-Target.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Pods_Target;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8953B6A235E5765EFD8B4BFF3087E3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 810BDB85011E792FA822357AF69F8599 /* Pods-Pods-Target.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pods-Target/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Pods-Target/Pods-Pods-Target.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Pods_Target;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89F14D5B3C79D0EA21E0FC0105A2BDC5 /* ConfigTest */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7297E4CA57644E1E6A9E7F7B311A6DA /* Pods-Pods-Target.configtest.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pods-Target/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Pods-Target/Pods-Pods-Target.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Pods_Target;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ConfigTest;
+		};
+		8B5E88C025C17DE57E146CCB5B5C1AC0 /* ConfigTest */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C42FDFCA7B5B7F02524B9379223B74AD /* DCIntrospect-ARC-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DCIntrospect-ARC/DCIntrospect-ARC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DCIntrospect-ARC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DCIntrospect-ARC/DCIntrospect-ARC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DCIntrospect_ARC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ConfigTest;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DA3DDF8E9A8DFEED2B66D53B13567FF /* Build configuration list for PBXNativeTarget "DCIntrospect-ARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B5E88C025C17DE57E146CCB5B5C1AC0 /* ConfigTest */,
+				3FE0DF61CEA7710FB77E1793E522220D /* Debug */,
+				554C2408C3AA295251DEBC1A9DBF9C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3495F753D747F2A18F66C9295208B050 /* ConfigTest */,
+				0D491647D9FBA81473125ECE87766FEE /* Debug */,
+				3D0A535BAC826A03FA3AC24481AA4E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A31707EE49ACEE604375BEFAB22317EA /* Build configuration list for PBXNativeTarget "Pods-Pods-Target" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89F14D5B3C79D0EA21E0FC0105A2BDC5 /* ConfigTest */,
+				8953B6A235E5765EFD8B4BFF3087E3C3 /* Debug */,
+				5EDD9F8A735E7AA6B2BFB60EA1217F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
